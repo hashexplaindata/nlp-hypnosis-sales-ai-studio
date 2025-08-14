@@ -1,0 +1,13 @@
+{
+  "name": "nlp-hypnosis-sales-toolkit",
+  "display_name": "NLP • Hypnosis • Sales Toolkit",
+  "description": "Serve NLP, Hypnosis and Sales content as JSON payloads for apps and AI Studio.",
+  "version": "1.0.0",
+  "endpoints": {
+    "list_packs": {"path":"/packs","method":"GET","desc":"List available packs"},
+    "get_pack": {"path":"/get_pack","method":"POST","desc":"Get pack content by name"},
+    "search": {"path":"/search","method":"POST","desc":"Search text across packs"},
+    "render_payload": {"path":"/render_payload","method":"POST","desc":"Return render-ready payload"}
+  },
+  "author": "Muhammad Hasham"
+}
